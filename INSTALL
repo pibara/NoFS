@@ -1,0 +1,16 @@
+The NoFS filesystem  has the following prerequisites:
+
+* cmake.
+* fuse development files.
+
+To build the user space filesystem run:
+
+  mkdir build
+  cd build
+  cmake ../src
+  make
+
+To install the user space filesystem use the following command:
+
+  sudo make install
+
